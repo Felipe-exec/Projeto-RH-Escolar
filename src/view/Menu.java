@@ -31,13 +31,13 @@ public class Menu
 		this.cpf = leitor.nextInt();
 		System.out.println("Qual o nome? ");
 		this.nome = leitor.next();
-		System.out.println("EndereÁo: ");
+		System.out.println("Endere√ßo: ");
 		this.endereco = leitor.next();
-		System.out.println("Qual a data de emiss„o? ");
+		System.out.println("Qual a data de emiss√£o? ");
 		this.datadeEmissao = leitor.next();
-		System.out.println("Qual È a titulaÁ„o? ");
+		System.out.println("Qual √© a titula√ß√£o? ");
 		this.titulacao = leitor.next();
-		System.out.println("Quanto È o salario base? ");
+		System.out.println("Quanto √© o salario base? ");
 		this.salarioBase = leitor.nextDouble();
 	}
 	
@@ -46,7 +46,7 @@ public class Menu
 		informacoesFuncionario();
 		System.out.println("Siape:");
 		this.siape = leitor.nextInt();
-		System.out.println("De qual ·rea È? ");
+		System.out.println("De qual √°rea √©? ");
 		this.area = leitor.next();
 		
 		Docente d = new Docente(this.cpf, this.nome, this.endereco, this.datadeEmissao, this.titulacao, this.salarioBase, this.siape, this.area);
@@ -74,7 +74,7 @@ public class Menu
 		informacoesFuncionario();
 		System.out.println("data de fim de contrato:");
 		this.dataFim = leitor.next();
-		System.out.println("funÁ„o:");
+		System.out.println("fun√ß√£o:");
 		this.funcao = leitor.next();
 		
 		Terceirizado tz = new Terceirizado(this.cpf, this.nome, this.endereco, this.datadeEmissao, this.titulacao, this.salarioBase, this.dataFim, this.funcao);
