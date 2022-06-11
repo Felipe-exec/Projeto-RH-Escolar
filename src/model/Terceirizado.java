@@ -36,7 +36,7 @@ public class Terceirizado extends Funcionario
 	@Override
 	public String toString() 
 	{
-		return "\ncpf: " + this.getCpf() + "\n nome: " + this.getNome() + "\nendereço: " + this.getEndereco() + "\ndata de emissão:" + this.getDatadeEmissao() + "\ntitulação: " + this.getTitulacao() + "\nsalario base: " + this.getSalarioBase()
+		return "\ncpf: " + this.getCpf() + "\nnome: " + this.getNome() + "\nendereço: " + this.getEndereco() + "\ndata de emissão:" + this.getDatadeEmissao() + "\ntitulação: " + this.getTitulacao() + "\nsalario base: " + this.getSalarioBase()
 		+ "\ndata de fim de contrato: " + this.dataFim + "\nfunçao: " + this.funcao;
 	}
 }
