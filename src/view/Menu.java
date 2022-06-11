@@ -15,7 +15,6 @@ public class Menu
 	private int siape;
 	private String area;
 	private Scanner leitor;
-	private RH rh;
 	private String departamento;
 	private String dataFim;
 	private String funcao;
@@ -24,7 +23,6 @@ public class Menu
 	public Menu()
 	{
 		leitor = new Scanner(System.in);
-		rh = new RH();
 	}
 	
 	private void informacoesFuncionario()
@@ -41,12 +39,6 @@ public class Menu
 		this.titulacao = leitor.next();
 		System.out.println("Quanto é o salario base? ");
 		this.salarioBase = leitor.nextDouble();
-		
-		/*
-		Docente d = new Docente(cpf, nome, endereco, datadeEmissao, titulacao, salarioBase, siape, area);
-		d.calculaSalario();
-		rh.adicionaFuncionario(d);
-		*/
 	}
 	
 	public Docente dadosDocente()

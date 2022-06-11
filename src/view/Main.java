@@ -33,7 +33,6 @@ public class Main
 					if (escolhaCadastro == 1)
 					{
 						rh.adicionaFuncionario(m.dadosDocente());
-						System.out.println(rh.getFuncionarios());
 					}
 					
 					else if (escolhaCadastro == 2)

@@ -17,7 +17,7 @@ public class Terceirizado extends Funcionario
 	{
 		double salarioBase = this.getSalarioBase();
 		
-		if (this.funcao.equalsIgnoreCase("professor")) //this.getTitulacao().equalsIgnoreCase("Mestre")
+		if (this.funcao.equalsIgnoreCase("professor")) 
 		{
 			if(this.getTitulacao().equalsIgnoreCase("Mestre"))
 			{
