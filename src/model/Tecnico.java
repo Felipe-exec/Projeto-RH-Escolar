@@ -33,7 +33,6 @@ public class Tecnico extends Funcionario
 	@Override
 	public String toString() 
 	{
-		return "\ncpf: " + this.getCpf() + "\n nome: " + this.getNome() + "\nendereço: " + this.getEndereco() + "\ndata de emissão:" + this.getDatadeEmissao() + "\ntitulação: " + this.getTitulacao() + "\nsalario base: " + this.getSalarioBase()
-		+ "\nsiape: " + this.siape + "\ndepartamento: " + this.departamento;
+		return super.toString() + "\nsiape: " + this.siape + "\ndepartamento: " + this.departamento;
 	}
 }
